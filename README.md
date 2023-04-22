@@ -133,7 +133,11 @@ In this example, it creates a Stock object and two Order objects: BuyStock and S
 
 ## Citation
 [1] L. Bosse and J. Oestereich, "Command pattern," Wikipedia, 20-Sep-2021. [Online]. Available: https://en.wikipedia.org/wiki/Command_pattern#:~:text=In%20object%2Doriented%20programming%2C%20the,values%20for%20the%20method%20parameters. [Accessed: 21-Apr-2023].
+
 [2] Tutorialspoint. (n.d.). Command pattern. Retrieved April 20, 2023, from https://www.tutorialspoint.com/design_pattern/command_pattern.htm
+
 [3] Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). Design patterns: elements of reusable object-oriented software. Addison-Wesley Professional.
+
 [4] Freeman, E., & Robson, E. (2004). Head first design patterns. O'Reilly Media, Inc.
+
 [5] P. M. Mellor, M. J. Balcer, and S. J. Mellor, "The Command Design Pattern," in Advances in Object-Oriented Metamodeling, Springer US, 1998, pp. 233-240. [Online]. Available: https://doi.org/10.1007/978-1-4615-5593-0_22 

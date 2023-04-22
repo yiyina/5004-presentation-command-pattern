@@ -21,13 +21,13 @@ The Command Pattern is a versatile design pattern that can be applied in various
 
 Encapsulating requests as objects: When you want to decouple the object that invokes a request from the object that performs the action, you can encapsulate the request as an object using the Command Pattern.
 
-**Undo and redo functionality:** One advantage of the Command Pattern is that it provides a way to undo and redo actions, which is useful in scenarios where there is a need to roll back or replay changes made to an object. This feature can be particularly useful in transactional processing systems, where the ability to undo and redo actions can prevent data inconsistencies and errors.
+***Undo and redo functionality:*** One advantage of the Command Pattern is that it provides a way to undo and redo actions, which is useful in scenarios where there is a need to roll back or replay changes made to an object. This feature can be particularly useful in transactional processing systems, where the ability to undo and redo actions can prevent data inconsistencies and errors.
 For example: A calculator application could use the Command Pattern to encapsulate mathematical operations such as addition and subtraction, allowing them to be executed and undone as needed.
 
-**Complex command sequences:** The Command Pattern can be used to execute complex sequences of commands as a single transaction. This allows for the creation of atomic actions that can be rolled back in case of failures or errors, providing reliability and fault tolerance to the system.
+***Complex command sequences:*** The Command Pattern can be used to execute complex sequences of commands as a single transaction. This allows for the creation of atomic actions that can be rolled back in case of failures or errors, providing reliability and fault tolerance to the system.
 For example: the Command Pattern is a useful tool for implementing undo/redo functionality and saving game progress in a game development scenario. In a video game, a Memento object can be implemented to save the game state, including the current level, player position, score, and stack of executed commands. This enables the player to continue the game from where they left off, even if the game crashes or is closed, resulting in a better player experience and increased reliability of the game.
 
-**Decoupling requester and receiver objects:** The Command Pattern is useful in scenarios where there is a need to decouple a requester object from the object that performs the action. This decoupling can simplify the design of the system and promote code reusability and maintainability. 
+***Decoupling requester and receiver objects:*** The Command Pattern is useful in scenarios where there is a need to decouple a requester object from the object that performs the action. This decoupling can simplify the design of the system and promote code reusability and maintainability. 
 
 Our code example below will demonstrate the encapsulating and decoupling features of the Command Pattern. This usage allows for greater flexibility and reusability of the code, and it makes it easier to add new commands to the system.
 

@@ -1,4 +1,4 @@
-# Command pattern-group1
+# Command pattern-Group1
 Team Member: Siyi Ling (Sierra), Jiaxin Yan (Mia), Yina Yi
 
 ## Introduction of the Command pattern

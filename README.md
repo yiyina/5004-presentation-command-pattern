@@ -139,5 +139,3 @@ In this example, it creates a Stock object and two Order objects: BuyStock and S
 [3] Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). Design patterns: elements of reusable object-oriented software. Addison-Wesley Professional.
 
 [4] Freeman, E., & Robson, E. (2004). Head first design patterns. O'Reilly Media, Inc.
-
-[5] P. M. Mellor, M. J. Balcer, and S. J. Mellor, "The Command Design Pattern," in Advances in Object-Oriented Metamodeling, Springer US, 1998, pp. 233-240. [Online]. Available: https://doi.org/10.1007/978-1-4615-5593-0_22 

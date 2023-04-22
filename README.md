@@ -55,13 +55,13 @@ By using the Command pattern in this way, the client can make requests without k
 Let’s walk through the code.
 
 The example starts with defining an interface called Order. This interface defines a method called execute() which will be implemented by concrete classes.
-
+``````java
 public interface Order {
   void execute();
 }
-
+``````
 Next, we define two concrete classes called BuyStock and SellStock that implement the Order interface.
-
+``````java
 public class BuyStock implements Order{
   private Stock abcStock;
 
@@ -74,7 +74,8 @@ public class BuyStock implements Order{
     abcStock.buy();
   }
 }
-
+``````
+``````java
 public class SellStock implements Order {
   private Stock abcStock;
 
@@ -87,11 +88,11 @@ public class SellStock implements Order {
     abcStock.sell();
   }
 }
-
+``````
 Both BuyStock and SellStock classes have a constructor that takes a Stock object and assigns it to a private variable. They also implement the execute() method by calling the buy() and sell() methods respectively of the Stock object.
 
 The next step is to create a Broker class that acts as the invoker and executes the commands.
-
+``````java
 public class Broker {
   private List<Order> orderList = new ArrayList<Order>();
 
@@ -107,11 +108,11 @@ public class Broker {
     orderList.clear();
   }
 }
-
+``````
 The Broker class has two methods: takeOrder() and placeOrders(). The takeOrder() method takes an Order object and adds it to a list of orders. The placeOrders() method iterates over the list of orders and executes each order by calling its execute() method. Finally, it clears the list of orders.
 
 To test the implementation of the Command Pattern, it can create a CommandPatternDemo class that creates objects of the Stock, BuyStock, SellStock, and Broker classes and executes the orders.
-
+``````java
 public class CommandPatternDemo {
   public static void main(String[] args) {
     Stock abcStock = new Stock();
@@ -126,7 +127,7 @@ public class CommandPatternDemo {
     broker.placeOrders();
   }
 }
-
+``````
 In this example, it creates a Stock object and two Order objects: BuyStock and SellStock. Then it creates a Broker object and adds the orders to its order list using the takeOrder() method. Finally, it calls the placeOrders() method of the Broker object to execute the orders.
 
 # Citation

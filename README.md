@@ -61,7 +61,7 @@ public interface Order {
   void execute();
 }
 ``````
-Next, we define two concrete classes called BuyStock and SellStock that implement the Order interface.
+Next, the example defines two concrete classes called BuyStock and SellStock that implement the Order interface.
 ``````java
 public class BuyStock implements Order{
   private Stock abcStock;

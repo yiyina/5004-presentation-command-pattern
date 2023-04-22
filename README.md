@@ -10,9 +10,9 @@ One advantage of the Command Pattern is that it provides a way to undo and redo 
 
 The Command Pattern is widely used in various scenarios, from text editors to home entertainment systems to transaction processing systems. It enables the addition of new features and behaviors to an object without modifying its existing code, resulting in a flexible, modular, and easily maintainable codebase.
 
-## 图片
+![Wiki UML](https://github.com/yiyina/5004-presentation-command-pattern/blob/main/res/Wiki%20UML.png)
 
-Figure 1. A sample UML class and sequence diagram for the Command design pattern.[1]
+<p align="center"><em>Figure 1. A sample UML class and sequence diagram for the Command design pattern.[1]</em></p>
 
 The Invoker class in the Command Pattern refers to the Command interface to perform a request, making it independent of how the request is performed. The Command class implements the Command interface by performing an action on a receiver. This run-time interaction is shown in a UML sequence diagram. [1]
 
@@ -33,7 +33,8 @@ Our code example below will demonstrate the encapsulating and decoupling feature
 
 # UML Class diagram
 
-## 图片
+![Stock UML](https://github.com/yiyina/5004-presentation-command-pattern/blob/main/res/Stock%20UML.png)
+<p align="center"><em>Figure 2. Design Patterns - Command Pattern UML Class Diagram.[2]</em></p>
 
 # Code Walkthrough
 

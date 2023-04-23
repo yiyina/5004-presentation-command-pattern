@@ -131,7 +131,7 @@ public class CommandPatternDemo {
 ``````
 In this example, it creates a Stock object and two Order objects: BuyStock and SellStock. Then it creates a Broker object and adds the orders to its order list using the takeOrder() method. Finally, it calls the placeOrders() method of the Broker object to execute the orders.
 
-## References
+## Citations
 [1] L. Bosse and J. Oestereich, "Command pattern," Wikipedia, 20-Sep-2021. [Online]. Available: https://en.wikipedia.org/wiki/Command_pattern#:~:text=In%20object%2Doriented%20programming%2C%20the,values%20for%20the%20method%20parameters. [Accessed: 21-Apr-2023].
 
 [2] Tutorialspoint. (n.d.). Command pattern. Retrieved April 20, 2023, from https://www.tutorialspoint.com/design_pattern/command_pattern.htm
